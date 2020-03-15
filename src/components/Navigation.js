@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
@@ -7,13 +7,13 @@ const Navigation = () => {
       <div className="App">
         <h1>React Router Mini</h1>
         <div>
-          <a href=""><Link to="/">Home</Link></a>
+          <Link to="/">Home</Link>
         </div>
         <div>
-          <a href=""><Link to="/about">About</Link></a>
+          <Link to="/about">About</Link>
         </div>
         <div>
-          <a href=""><Link to="/contact">Contact</Link></a>
+          <Link to="/contact">Contact</Link>
         </div>
       </div>
     </div>
